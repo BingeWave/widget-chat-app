@@ -1,0 +1,59 @@
+#{{namespace}}_chat {
+     width: 100%;
+     overflow-y: auto;
+     max-height: 180px;
+     max-width: 280px;
+}
+
+#{{namespace}}_chat::-webkit-scrollbar {
+     display: none;
+}
+
+#{{namespace}}_chat ul {
+     list-style-type: none;
+     list-style-position: outside;
+     padding-left: 0px;
+}
+
+#{{namespace}}_chat li {
+     box-sizing: border-box;
+     margin-bottom: 1px;
+     opacity: 0.5;
+     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+#{{namespace}}_chat blockquote {
+     font-size: 0.8rem;
+     color: white;
+}
+
+@keyframes slide-in-left {
+     from {
+         transform: translateX(400px);
+         opacity: 0;
+    }
+     to {
+         transform: translateX(0);
+         opacity: 1;
+    }
+}
+
+#{{namespace}}_chat li:not(:last-of-type) {
+     opacity: 0.5;
+}
+
+#{{namespace}}_chat li:last-of-type {
+     animation-name: slide-in-left;
+     animation-duration: 0.15s;
+     animation-timing-function: ease-in;
+}
+
+.{{namespace}}_transparent {
+     opacity: 0.5;
+}
+
+.{{namespace}}_text_outline {
+     color: white;
+     text-shadow: 1px 0 0 #FFF, 0 -1px 0 #FFF, 0 1px 0 #FFF, -1px 0 0 #FFF;
+}
+
