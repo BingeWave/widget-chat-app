@@ -21,4 +21,4 @@ The focus of this tutorial is how create a group chat that appears over a live s
 
 ## Tutorial
 
-This code is accompanied by a tutorial that will further explain steps, which is available at: [Developing Video Chat Over a Live Stream](https://medium.com/bingewave/developing-a-name-tag-widget-for-live-streams-9795996f9a58)
+This code is accompanied by a tutorial that will further explain steps, which is available at: [Developing Video Chat Over a Live Stream](https://medium.com/bingewave/how-to-build-a-chat-widget-for-live-video-streams-9d9a05aa6f2d)
